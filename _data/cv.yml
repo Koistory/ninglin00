@@ -12,14 +12,12 @@ cv:
   sections:
     Education:
       - institution: Renmin University of China
-        location: Beijing, China
         area: AI
         studyType: M.S.
         start_date: 2024
         end_date: current
 
       - institution: Renmin University of China
-        location: Beijing, China
         area: AI
         studyType: B.Eng
         start_date: 2020
