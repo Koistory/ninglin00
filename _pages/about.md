@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student, <a href='#'>Renmin University of China</a>
+subtitle: M.S. Student, <a href='http://ai.ruc.edu.cn/english/'>Gaoling School of Artificial Intelligence</a>
 
 profile:
   align: right
