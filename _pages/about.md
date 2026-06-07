@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student, <a href='#'>Gaoling School of Artificial Intelligence, Renmin University of China</a>
+subtitle: M.S. Student, <a href='#'>Renmin University of China</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>No. 59 Zhongguancun Street, Haidian District</p>
+    <p>No. 59 Zhongguancun Street</p>
     <p>Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
