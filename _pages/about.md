@@ -16,12 +16,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -33,3 +33,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
+
+I am currently an M.S. candidate in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China, advised by Prof. Wenbing Huang and Prof. Hao Sun. Previously, I received my B.Eng. in Artificial Intelligence from Renmin University of China, where I was honored as an Outstanding Graduate of Beijing.
+
+My research interests lie broadly in geometric deep learning and AI for Science. I am particularly interested in incorporating physical principles and symmetry constraints into neural networks. My recent work focuses on symmetry theory for equivariant neural networks, generative modeling of symmetric patterns, and constrained optimization and generation for scientific design problems such as aerodynamic inverse design.
+
+Welcome to drop me an email if you want to discuss or collaborate!
+
+
