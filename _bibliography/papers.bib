@@ -8,7 +8,7 @@
   booktitle={The Fourteenth International Conference on Learning Representations},
   year={2026},
   abstract={Equivariant Neural Networks (ENNs) have empowered numerous applications in scientific fields. Despite their remarkable capacity for representing geometric structures, ENNs suffer from degraded expressivity when processing symmetric inputs: the output representations are invariant to transformations that extend beyond the input's symmetries. The mathematical essence of this phenomenon is that a symmetric input, after being processed by an equivariant map, experiences an increase in symmetry. While prior research has documented symmetry increase in specific cases, a rigorous understanding of its underlying causes and general reduction strategies remains lacking. In this paper, we provide a detailed and in-depth characterization of symmetry increase together with a principled framework for its reduction: (i) For any given feature space and input symmetry group, we prove that the increased symmetry admits an infimum determined by the structure of the feature space; (ii) Building on this foundation, we develop a computable algorithm to derive this infimum, and propose practical guidelines for feature design to prevent harmful symmetry increases. (iii) Under standard regularity assumptions, we demonstrate that for most equivariant maps, our guidelines effectively reduce symmetry increase. To complement our theoretical findings, we provide visualizations and experiments on both synthetic datasets and the real-world QM9 dataset. The results validate our theoretical predictions.},
-  pdf={SymInc_ICLR26.pdf},
+  pdf={https://openreview.net/pdf?id=dUgq4bLY4X},
   code={https://github.com/GLAD-RUC/SymInc},
   preview={SymInc.png},
   selected={true}
@@ -21,7 +21,7 @@
   booktitle={The Forty-third International Conference on Machine Learning},
   year={2026},
   abstract={Generating objects with specific symmetries is essential in various real-world scenarios. However, adapting existing 2D continuous representations to enforce planar group symmetry remains a challenge, as the transformation of non-reflective group elements may disrupt continuity. To overcome this limitation, we propose a symmetrization framework for arbitrary planar groups. Our method transforms any 2D continuous representation into a symmetric one while preserving continuity. We provide the mathematical formulation of this representation, demonstrate its approximation capability for symmetric functions, and detail the construction methodology. We validate our approach through three visual design tasks (pattern design, paper-cutting design and stylized topology design) and one material design task. Experiments confirm that our representation enables effective symmetry control and demonstrate its broader applicability.},
-  pdf={Sym2D_ICML26.pdf},
+  pdf={https://arxiv.org/pdf/2606.02073},
   code={https://github.com/GLAD-RUC/Sym2D},
   preview={Sym2D.png},
   selected={true}
@@ -33,7 +33,7 @@
   journal={arXiv preprint arXiv:2602.03582},
   year={2026},
   abstract={Aerodynamic inverse design can improve vehicle and aircraft efficiency, but practical design rarely seeks performance alone: vehicle refinement must reduce drag while preserving visual features linked to design language, brand recognition and user perception. Traditional CFD-driven optimization is accurate but slow for broad exploration, and current learning-based methods are still largely performance-driven and lack a coherent target linking optimization, generation and visual consistency. Here we formulate visual preservation and aerodynamic improvement as one probability target. Designs consistent with a reference shape or view define a learned visual design distribution, which is reweighted by aerodynamic cost. Optimization then refines an initial geometry toward a low-cost, high-probability design, whereas guided generation samples lower-cost 3D candidates from the same input view. OpenFOAM evaluation shows that visual-feature-preserving optimization reduces vehicle drag by 5.8\% relative to the initial vehicle and reduces the best valid aircraft drag-to-lift objective by 28.8\% relative to the initial aircraft while preserving input visual features. For view-based generation, guidance reduces vehicle drag by 3.0\% and the aircraft drag-to-lift objective by 68.6\% relative to direct generation from the same view, while maintaining visual consistency. Wind-tunnel tests with 3D-printed vehicle prototypes provide an independent wake-level check, and controlled analyses explain the distributional mechanisms behind these results. This work provides a probabilistic foundation and practical route for visual-feature-preserving aerodynamic refinement and early-stage 3D design exploration.},
-  pdf={},
+  pdf={https://arxiv.org/pdf/2602.03582},
   preview={AeroDesign.png},
   selected={true}
 }
