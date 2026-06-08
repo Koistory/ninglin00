@@ -39,3 +39,29 @@
   selected={true}
 }
 
+@article{cen2024high,
+  abbr={NeuriPS 2024},
+  title={Are high-degree representations really unnecessary in equivariant graph neural networks?},
+  author={Cen, Jiacheng and Li, Anyi and Lin, Ning and Ren, Yuxiang and Wang, Zihe and Huang, Wenbing},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={26238--26266},
+  year={2024},
+  abstract={Equivariant Graph Neural Networks (GNNs) that incorporate E(3) symmetry have achieved significant success in various scientific applications. As one of the most successful models, EGNN leverages a simple scalarization technique to perform equivariant message passing over only Cartesian vectors (i.e., 1st-degree steerable vectors), enjoying greater efficiency and efficacy compared to equivariant GNNs using higher-degree steerable vectors. This success suggests that higher-degree representations might be unnecessary. In this paper, we disprove this hypothesis by exploring the expressivity of equivariant GNNs on symmetric structures, including k-fold rotations and regular polyhedra. We theoretically demonstrate that equivariant GNNs will always degenerate to a zero function if the degree of the output representations is fixed to 1 or other specific values. Based on this theoretical insight, we propose HEGNN, a high-degree version of EGNN to increase the expressivity by incorporating high-degree steerable vectors while maintaining EGNN's efficiency through the scalarization trick. Our extensive experiments demonstrate that HEGNN not only aligns with our theoretical analyses on toy datasets consisting of symmetric structures, but also shows substantial improvements on more complicated datasets such as N-body and MD17. Our theoretical findings and empirical results potentially open up new possibilities for the research of equivariant GNNs.},
+  pdf={https://arxiv.org/pdf/2410.11443},
+  preview={HEGNN.png},
+  selected={true}
+}
+
+@article{cen2025universally,
+  abbr={NeuriPS 2025},
+  title={Universally invariant learning in equivariant GNNs},
+  author={Cen, Jiacheng and Li, Anyi and Lin, Ning and Xu, Tingyang and Rong, Yu and Zhao, Deli and Wang, Zihe and Huang, Wenbing},
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={85715--85756},
+  year={2025},
+  abstract={Equivariant Graph Neural Networks (GNNs) have demonstrated significant success across various applications. To achieve completeness -- that is, the universal approximation property over the space of equivariant functions -- the network must effectively capture the intricate multi-body interactions among different nodes. Prior methods attain this via deeper architectures, augmented body orders, or increased degrees of steerable features, often at high computational cost and without polynomial-time solutions. In this work, we present a theoretically grounded framework for constructing complete equivariant GNNs that is both efficient and practical. We prove that a complete equivariant GNN can be achieved through two key components: 1) a complete scalar function, referred to as the canonical form of the geometric graph; and 2) a full-rank steerable basis set. Leveraging this finding, we propose an efficient algorithm for constructing complete equivariant GNNs based on two common models: EGNN and TFN. Empirical results demonstrate that our model demonstrates superior completeness and excellent performance with only a few layers, thereby significantly reducing computational overhead while maintaining strong practical efficacy.},
+  pdf={https://arxiv.org/pdf/2510.13169},
+  preview={UniEGNN.png},
+}
