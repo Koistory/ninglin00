@@ -1,7 +1,8 @@
 cv:
   name: Ning Lin
-  label: M.S. Candidate in AI
   email: linning51400@ruc.edu.cn
+  location: Beijing, China
+  summary: M.S. Candidate in AI
 
   sections:
     Education:
@@ -10,9 +11,11 @@ cv:
         studyType: M.S.
         start_date: 2024
         end_date: current
+        location: Beijing, China
 
       - institution: Renmin University of China
         area: Artificial Intelligence
         studyType: B.Eng
         start_date: 2020
         end_date: 2024
+        location: Beijing, China
