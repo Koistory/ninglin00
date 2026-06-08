@@ -50,7 +50,8 @@
   abstract={Equivariant Graph Neural Networks (GNNs) that incorporate E(3) symmetry have achieved significant success in various scientific applications. As one of the most successful models, EGNN leverages a simple scalarization technique to perform equivariant message passing over only Cartesian vectors (i.e., 1st-degree steerable vectors), enjoying greater efficiency and efficacy compared to equivariant GNNs using higher-degree steerable vectors. This success suggests that higher-degree representations might be unnecessary. In this paper, we disprove this hypothesis by exploring the expressivity of equivariant GNNs on symmetric structures, including k-fold rotations and regular polyhedra. We theoretically demonstrate that equivariant GNNs will always degenerate to a zero function if the degree of the output representations is fixed to 1 or other specific values. Based on this theoretical insight, we propose HEGNN, a high-degree version of EGNN to increase the expressivity by incorporating high-degree steerable vectors while maintaining EGNN's efficiency through the scalarization trick. Our extensive experiments demonstrate that HEGNN not only aligns with our theoretical analyses on toy datasets consisting of symmetric structures, but also shows substantial improvements on more complicated datasets such as N-body and MD17. Our theoretical findings and empirical results potentially open up new possibilities for the research of equivariant GNNs.},
   pdf={https://arxiv.org/pdf/2410.11443},
   preview={HEGNN.png},
-  selected={true}
+  selected={true},
+  code={https://github.com/GLAD-RUC/HEGNN}
 }
 
 @article{cen2025universally,
@@ -64,6 +65,7 @@
   abstract={Equivariant Graph Neural Networks (GNNs) have demonstrated significant success across various applications. To achieve completeness -- that is, the universal approximation property over the space of equivariant functions -- the network must effectively capture the intricate multi-body interactions among different nodes. Prior methods attain this via deeper architectures, augmented body orders, or increased degrees of steerable features, often at high computational cost and without polynomial-time solutions. In this work, we present a theoretically grounded framework for constructing complete equivariant GNNs that is both efficient and practical. We prove that a complete equivariant GNN can be achieved through two key components: 1) a complete scalar function, referred to as the canonical form of the geometric graph; and 2) a full-rank steerable basis set. Leveraging this finding, we propose an efficient algorithm for constructing complete equivariant GNNs based on two common models: EGNN and TFN. Empirical results demonstrate that our model demonstrates superior completeness and excellent performance with only a few layers, thereby significantly reducing computational overhead while maintaining strong practical efficacy.},
   pdf={https://arxiv.org/pdf/2510.13169},
   preview={UniEGNN.png},
+  code={https://github.com/GLAD-RUC/Uni-EGNN}
 }
 
 @inproceedings{li2025slotpi,
@@ -75,7 +77,8 @@
   year={2025},
   abstract={Understanding and reasoning about dynamics governed by physical laws through visual observation, akin to human capabilities in the real world, poses significant challenges. Currently, object-centric dynamic simulation methods, which emulate human behavior, have achieved notable progress but overlook two critical aspects: 1) the integration of physical knowledge into models. Humans gain physical insights by observing the world and apply this knowledge to accurately reason about various dynamic scenarios; 2) the validation of model adaptability across diverse scenarios. Real-world dynamics, especially those involving fluids and objects, demand models that not only capture object interactions but also simulate fluid flow characteristics. To address these gaps, we introduce SlotPi, a slot-based physics-informed object-centric reasoning model. SlotPi integrates a physical module based on Hamiltonian principles with a spatio-temporal prediction module for dynamic forecasting. Our experiments highlight the model's strengths in tasks such as prediction and Visual Question Answering (VQA) on benchmark and fluid datasets. Furthermore, we have created a real-world dataset encompassing object interactions, fluid dynamics, and fluid-object interactions, on which we validated our model's capabilities. The model's robust performance across all datasets underscores its strong adaptability, laying a foundation for developing more advanced world models.},
   pdf={https://arxiv.org/pdf/2506.10778},
-  preview={SlotPi.png}
+  preview={SlotPi.png},
+  code={https://github.com/intell-sci-comput/SlotPi}
 }
 
 @article{chen2025nowcast3d,
@@ -86,5 +89,6 @@
   year={2025},
   abstract={Understanding and reasoning about dynamics governed by physical laws through visual observation, akin to human capabilities in the real world, poses significant challenges. Currently, object-centric dynamic simulation methods, which emulate human behavior, have achieved notable progress but overlook two critical aspects: 1) the integration of physical knowledge into models. Humans gain physical insights by observing the world and apply this knowledge to accurately reason about various dynamic scenarios; 2) the validation of model adaptability across diverse scenarios. Real-world dynamics, especially those involving fluids and objects, demand models that not only capture object interactions but also simulate fluid flow characteristics. To address these gaps, we introduce SlotPi, a slot-based physics-informed object-centric reasoning model. SlotPi integrates a physical module based on Hamiltonian principles with a spatio-temporal prediction module for dynamic forecasting. Our experiments highlight the model's strengths in tasks such as prediction and Visual Question Answering (VQA) on benchmark and fluid datasets. Furthermore, we have created a real-world dataset encompassing object interactions, fluid dynamics, and fluid-object interactions, on which we validated our model's capabilities. The model's robust performance across all datasets underscores its strong adaptability, laying a foundation for developing more advanced world models.},
   pdf={https://arxiv.org/pdf/2511.04659},
-  preview={Nowcast3D.png}
+  preview={Nowcast3D.png},
+  code={https://github.com/Huaguan-Chen/Nowcast3D}
 }
