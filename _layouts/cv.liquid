@@ -2,79 +2,29 @@
 layout: default
 ---
 
+---
+layout: default
+---
+
 <style>
-  /* Remove black bullet markers from top-level CV entries. */
-  .cv ul.card-text.list-group.list-group-flush > li.list-group-item {
+  /* Remove black bullet markers from top-level CV entries */
+  div.cv ul.card-text.list-group.list-group-flush > li.list-group-item {
     list-style-type: none !important;
   }
 
-  .cv ul.card-text.list-group.list-group-flush > li.list-group-item::marker {
+  div.cv ul.card-text.list-group.list-group-flush > li.list-group-item::marker {
     content: "" !important;
     font-size: 0 !important;
   }
 
-  /* Remove black bullet markers from timeline entries. */
-  .cv ul.timeline > li {
+  /* Extra safeguard for timeline-style CV entries */
+  div.cv ul.timeline > li {
     list-style-type: none !important;
   }
 
-  .cv ul.timeline > li::marker {
+  div.cv ul.timeline > li::marker {
     content: "" !important;
     font-size: 0 !important;
-  }
-
-  /* Hide location rows and location icons in CV entries. */
-  .cv p.location,
-  .cv i.iconlocation {
-    display: none !important;
-  }
-
-  /* Remove the top and bottom horizontal lines around date badges. */
-  .cv .date-column table.table-cv,
-  .cv .date-column table.table-cv tbody,
-  .cv .date-column table.table-cv tr,
-  .cv .date-column table.table-cv td,
-  .cv .date-column table.table-cv th {
-    border: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-  }
-
-  /* Remove possible pseudo-elements around the date table. */
-  .cv .date-column table.table-cv::before,
-  .cv .date-column table.table-cv::after,
-  .cv .date-column table.table-cv td::before,
-  .cv .date-column table.table-cv td::after {
-    display: none !important;
-    content: none !important;
-  }
-
-  /* Keep the date badge compact after removing the table borders. */
-  .cv .date-column table.table-cv {
-    margin: 0 auto !important;
-  }
-
-  .cv .date-column table.table-cv td,
-  .cv .date-column table.table-cv th {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  /* Add a subtle shadow to CV date badges */
-  .cv ul.timeline > li .badge,
-  .cv ul.timeline > li span.badge,
-  .cv span.badge.text-uppercase {
-    display: inline-block;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
-    border-radius: 6px;
-  }
-  
-  /* Prevent the shadow from being clipped by parent containers */
-  .cv ul.timeline,
-  .cv ul.timeline > li {
-    overflow: visible;
   }
 </style>
 
@@ -88,5 +38,12 @@ layout: default
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-description">CV rendering is unavailable.</p>
     </header>
+
+    <article>
+      <p>
+        Enable the <code>al_folio_cv</code> plugin and set
+        <code>al_folio.features.cv.enabled: true</code> to render this page.
+      </p>
+    </article>
   </div>
 {% endif %}
