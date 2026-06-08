@@ -1,9 +1,8 @@
 cv:
   name: Ning Lin
   email: linning51400@ruc.edu.cn
-  location: Beijing, China
-  headline: M.S. Candidate in AI
 
+  
   sections:
     Education:
       - institution: Renmin University of China
