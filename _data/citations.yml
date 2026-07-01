@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-01'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
     citations: 37
@@ -16,13 +16,13 @@ papers:
   y1C1q3cAAAAJ:NXb4pA-qfm4C:
     citations: 0
     title: Reducing Symmetry Increase in Equivariant Neural Networks
-    year: '2026'
+    year: Unknown Year
   y1C1q3cAAAAJ:XvxMoLDsR5gC:
     citations: 4
     title: Universally invariant learning in equivariant GNNs
     year: '2026'
   y1C1q3cAAAAJ:_5tno0g5mFcC:
-    citations: 45
+    citations: 46
     title: Zero-shot skeleton-based action recognition via mutual information estimation and maximization
     year: '2023'
   y1C1q3cAAAAJ:a9-T7VOCCH8C:
