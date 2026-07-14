@@ -34,7 +34,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
 
-I am currently an M.S. candidate in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China, advised by Prof. Wenbing Huang and Prof. Hao Sun. Previously, I received my B.Eng. in Artificial Intelligence from Renmin University of China, where I was honored as an Outstanding Graduate of Beijing.
+I am currently an M.S. candidate in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China, advised by Prof. Hao Sun and Prof. Wenbing Huang. Previously, I received my B.Eng. in Artificial Intelligence from Renmin University of China, where I was honored as an Outstanding Graduate of Beijing.
 
 My research interests lie broadly in geometric deep learning and AI for Science. I am particularly interested in incorporating physical principles and symmetry constraints into neural networks. My recent work focuses on symmetry theory for equivariant neural networks, generative modeling of symmetric patterns, and constrained optimization and generation for scientific design problems such as aerodynamic inverse design.
 
