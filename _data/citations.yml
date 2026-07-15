@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-15'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
     citations: 37
@@ -11,7 +11,7 @@ papers:
     year: '2026'
   y1C1q3cAAAAJ:HtEfBTGE9r8C:
     citations: 3
-    title: Optimization and Generation in Aerodynamics Inverse Design
+    title: Optimization and generation in aerodynamics inverse design
     year: '2026'
   y1C1q3cAAAAJ:NXb4pA-qfm4C:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Universally invariant learning in equivariant GNNs
     year: '2026'
   y1C1q3cAAAAJ:_5tno0g5mFcC:
-    citations: 46
+    citations: 48
     title: Zero-shot skeleton-based action recognition via mutual information estimation and maximization
     year: '2023'
   y1C1q3cAAAAJ:a9-T7VOCCH8C:
