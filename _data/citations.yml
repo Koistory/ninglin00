@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-03'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
-    citations: 37
+    citations: 39
     title: Are high-degree representations really unnecessary in equivariant graph neural networks?
     year: '2024'
   y1C1q3cAAAAJ:6ZxmRoH8BuwC:
@@ -18,8 +18,8 @@ papers:
     title: Reducing Symmetry Increase in Equivariant Neural Networks
     year: '2026'
   y1C1q3cAAAAJ:XvxMoLDsR5gC:
-    citations: 5
-    title: Universally invariant learning in equivariant gnns
+    citations: 6
+    title: Universally invariant learning in equivariant GNNs
     year: '2026'
   y1C1q3cAAAAJ:_5tno0g5mFcC:
     citations: 49
