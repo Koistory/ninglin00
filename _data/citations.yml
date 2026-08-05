@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-05'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
     citations: 39
@@ -26,7 +26,7 @@ papers:
     title: Zero-shot skeleton-based action recognition via mutual information estimation and maximization
     year: '2023'
   y1C1q3cAAAAJ:a9-T7VOCCH8C:
-    citations: 3
+    citations: 5
     title: 'Nowcast3D: Reliable precipitation nowcasting via gray-box learning'
     year: '2025'
   y1C1q3cAAAAJ:umqufdRvDiIC:
