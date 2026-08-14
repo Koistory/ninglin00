@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-14'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
-    citations: 39
+    citations: 41
     title: Are high-degree representations really unnecessary in equivariant graph neural networks?
     year: '2024'
   y1C1q3cAAAAJ:6ZxmRoH8BuwC:
-    citations: 0
+    citations: 1
     title: Planar Symmetric Pattern Generation
     year: '2026'
   y1C1q3cAAAAJ:HtEfBTGE9r8C:
@@ -14,15 +14,15 @@ papers:
     title: Optimization and generation in aerodynamics inverse design
     year: '2026'
   y1C1q3cAAAAJ:NXb4pA-qfm4C:
-    citations: 0
+    citations: 1
     title: Reducing Symmetry Increase in Equivariant Neural Networks
     year: '2026'
   y1C1q3cAAAAJ:XvxMoLDsR5gC:
-    citations: 6
+    citations: 7
     title: Universally invariant learning in equivariant GNNs
     year: '2026'
   y1C1q3cAAAAJ:_5tno0g5mFcC:
-    citations: 49
+    citations: 52
     title: Zero-shot skeleton-based action recognition via mutual information estimation and maximization
     year: '2023'
   y1C1q3cAAAAJ:a9-T7VOCCH8C:
@@ -30,6 +30,6 @@ papers:
     title: 'Nowcast3D: Reliable precipitation nowcasting via gray-box learning'
     year: '2025'
   y1C1q3cAAAAJ:umqufdRvDiIC:
-    citations: 5
+    citations: 6
     title: 'Slotpi: Physics-informed object-centric reasoning models'
     year: '2025'
