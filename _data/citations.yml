@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-19'
 papers:
   y1C1q3cAAAAJ:4hFrxpcac9AC:
     citations: 41
     title: Are high-degree representations really unnecessary in equivariant graph neural networks?
     year: '2024'
   y1C1q3cAAAAJ:6ZxmRoH8BuwC:
-    citations: 1
+    citations: 2
     title: Planar Symmetric Pattern Generation
     year: '2026'
   y1C1q3cAAAAJ:HtEfBTGE9r8C:
